@@ -1,4 +1,4 @@
-plantsGrowing = []
+let plantsGrowing = []
 
 export const addPlant = (seed) => {
     const checkForArray = Array.isArray(seed)
