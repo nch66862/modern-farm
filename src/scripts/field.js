@@ -1,13 +1,14 @@
-plantsGrowing = []
+let plantsGrowing = []
 
 export const addPlant = (seed) => {
     const checkForArray = Array.isArray(seed)
     if (checkForArray == true) {
-        plantsGrowing = concat(plantsGrowing, seed)
+        plantsGrowing = plantsGrowing.concat(plantsGrowing, seed)
     }
     else {
         plantsGrowing.push(seed)
     }
+    return plantsGrowing
 }
 
 export const usePlants = () => {
