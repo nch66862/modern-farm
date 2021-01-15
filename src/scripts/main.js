@@ -31,7 +31,12 @@ console.log(sunflower)
 console.log(wheat)
 
 let seed = corn
-
+console.log("This is the result of addPlant")
+let result = addPlant(seed)
+seed = asparagus
+console.log("This is the result of addPlant")
+result = addPlant(seed)
+seed = potato
 console.log("This is the result of addPlant")
 result = addPlant(seed)
 
